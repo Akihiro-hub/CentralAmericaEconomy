@@ -958,7 +958,7 @@ def sdgs_achievement_analysis():
     # SDGs指標選択
     sdgs_indicators = [
         "経済的貧困度緩和指数",
-        "基礎教育アクセス指数",
+        "保健指数",
         "教育充実度指数",
         "ジェンダー代表性指数",
         "気候レジリエンス指数",
@@ -1006,7 +1006,7 @@ def sdgs_achievement_analysis():
     # SDGs指標の構成要素説明（構成比率と方向性付き）
     sdgs_goals = {
         "経済的貧困度緩和指数": "SDGs1 貧困削減",
-        "基礎教育アクセス指数": "SDGs3 保健・福祉",
+        "保健指数": "SDGs3 保健・福祉",
         "教育充実度指数": "SDGs4 質の高い教育",
         "ジェンダー代表性指数": "SDGs5 ジェンダー平等",
         "気候レジリエンス指数": "SDGs13 気候変動",
@@ -1019,7 +1019,7 @@ def sdgs_achievement_analysis():
     
     sdgs_display_components = {
         "経済的貧困度緩和指数": [('失業率 (SL.UEM.TOTL.ZS)', 40, -1), ('インフレ率 (FP.CPI.TOTL.ZG)', 20, -1), ('GDP成長率 (NY.GDP.MKTP.KD.ZG)', 20, 1), ('貧困率 (SI.POV.NAHC)', 20, -1)],
-        "基礎教育アクセス指数": [('平均寿命 (SP.DYN.LE00.IN)', 35, 1), ('安全な水アクセス (SH.H2O.BASW.ZS)', 35, 1), ('乳児死亡率 (SP.DYN.IMRT.IN)', 30, -1)],
+        "保健指数": [('平均寿命 (SP.DYN.LE00.IN)', 35, 1), ('安全な水アクセス (SH.H2O.BASW.ZS)', 35, 1), ('乳児死亡率 (SP.DYN.IMRT.IN)', 30, -1)],
         "教育充実度指数": [('識字率 (SE.ADT.LITR.ZS)', 40, 1), ('初等教育就学率 (SE.PRM.NENR)', 35, 1), ('中等教育就学率 (SE.SEC.NENR)', 30, 1)],
         "ジェンダー代表性指数": [('女性国会議員比率 (SG.GEN.PARL.ZS)', 30, 1), ('女性労働参加率 (SL.TLF.CACT.FE.ZS)', 35, 1), ('中等教育の男女比率 (SE.ENR.SECO.FM.ZS)', 35, 1)],
         "気候レジリエンス指数": [('CO2排出量 (EN.ATM.CO2E.PC)', 40, -1), ('森林面積率 (AG.LND.FRST.ZS)', 40, 1), ('エネルギー使用量 (EG.USE.PCAP.KG.OE)', 20, -1)],
@@ -1038,7 +1038,7 @@ def sdgs_achievement_analysis():
     # SDGs指標の構成要素（方向性考慮）
     sdgs_components = {
         "経済的貧困度緩和指数": [('SL.UEM.TOTL.ZS', 40, -1), ('FP.CPI.TOTL.ZG', 20, -1), ('NY.GDP.MKTP.KD.ZG', 20, 1), ('SI.POV.NAHC', 20, -1)],
-        "基礎教育アクセス指数": [('SP.DYN.LE00.IN', 35, 1), ('SH.H2O.BASW.ZS', 35, 1), ('SP.DYN.IMRT.IN', 30, -1)],
+        "保健指数": [('SP.DYN.LE00.IN', 35, 1), ('SH.H2O.BASW.ZS', 35, 1), ('SP.DYN.IMRT.IN', 30, -1)],
         "教育充実度指数": [('SE.ADT.LITR.ZS', 40, 1), ('SE.PRM.NENR', 35, 1), ('SE.SEC.NENR', 30, 1)],
         "ジェンダー代表性指数": [('SG.GEN.PARL.ZS', 30, 1), ('SL.TLF.CACT.FE.ZS', 35, 1), ('SE.ENR.SECO.FM.ZS', 35, 1)],
         "気候レジリエンス指数": [('EN.ATM.CO2E.PC', 40, -1), ('AG.LND.FRST.ZS', 40, 1), ('EG.USE.PCAP.KG.OE', 20, -1)],
