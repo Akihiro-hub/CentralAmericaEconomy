@@ -84,9 +84,7 @@ TRANSLATIONS = {
         'packages': {
             "基本経済プロファイル": "Perfil Económico Básico",
             "社会発展指標": "Indicadores de Desarrollo Social",
-            "持続可能性評価": "Evaluación de Sostenibilidad",
-            "技術・イノベーション": "Tecnología e Innovación",
-            "貿易・国際化": "Comercio e Internacionalización"
+            "持続可能性評価": "Evaluación de Sostenibilidad"
         }
     }
 }
